@@ -1,12 +1,10 @@
-
-public abstract class Xe4Banh extends Xe implements CoTheDoXang {
-
+public abstract class Xe4Banh extends Xe {
     public Xe4Banh(String mauSon, double trongLuong) {
         super(mauSon, trongLuong);
     }
 
-    @Override
-    public void doXang() {
+    public void doXang(){
         System.out.println("do xang");
     }
+
 }

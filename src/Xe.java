@@ -19,6 +19,7 @@ public abstract class Xe {
         System.out.println("dang cho nguoi");
     }
 
+
     public void showMe() {
         System.out.printf("loai xe :%s, mau son: %s, trong luong: %f\n",
                 this.getClass().getSimpleName(), this.mauSon, this.trongLuong);
