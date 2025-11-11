@@ -1,11 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        Shape circle = new Circle(12.4, "blue", "red");
-        Shape triangle = new Triangle(3, 4, 5, "red", "blue");
-        Shape rightTriangle = new RightTriangle(3, 4, "blue", "yellow");
+        XeDap xedap = new XeDap("mau den", 12);
+        XeMay xeMay = new XeMay("Den", 90);
+        XeTai xeTai = new XeTai("Trang", 3500);
+        XeKhach xeKhach = new XeKhach("vang", 12321);
 
-        circle.showMe();
-        triangle.showMe();
-        rightTriangle.showMe();
+        xeMay.doXang();
+        xeKhach.doXang();
+        xeTai.doXang();
+
+        xeTai.choHangHoa();
+        xeKhach.choKhach();
+
     }
 }
