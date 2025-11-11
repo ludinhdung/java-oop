@@ -25,6 +25,8 @@ bin/
 
 ### VS Code ###
 .vscode/
+.idea
+java-oop.iml
 
 ### Mac OS ###
 .DS_Store
